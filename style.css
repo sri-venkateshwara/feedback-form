@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .survey-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(135deg, #FFA07A, #87CEFA);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  form label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+ 
+  form input[type="checkbox"],
+  form label[for^="topic"] {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  form input,
+  form select,
+  form textarea {
+    width: 100%;
+    padding: 4px;
+    margin-top: 15px;
+  }
+  
+  form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  form button:hover {
+    background-color: #45a049;
+  }
+  
+  #feedback{
+
+    margin-top: 25px;
+
+  }
